@@ -1,1 +1,1 @@
-web: gunicorn translateWebService:translateWebService
+web: gunicorn app:app
