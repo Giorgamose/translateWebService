@@ -1,1 +1,1 @@
-web: gunicorn googletranslate:googletranslate
+web: gunicorn translateWebService:translateWebService
