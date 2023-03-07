@@ -11,7 +11,7 @@ def translate_text():
     if not input_text:
         return jsonify({'error': 'No input text provided.'})
     params = {
-        'key': 'AIzaSyBri2ufYJVFh5r4EBfxkpTC3FNyaujZgEo',
+        'key': 'GoogleAPIKey',
         'target': 'en',
         'source': 'ka',
         'q': input_text
