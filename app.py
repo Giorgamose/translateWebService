@@ -13,7 +13,7 @@ def translate_text():
     if not input_text:
         return jsonify({'error': 'No input text provided.'})
     params = {
-        'key': 'AIzaSyBri2ufYJVFh5r4EBfxkpTC3FNyaujZgEo',
+        'key': 'GoogleAppID',
         'target': target ,
         'source': source ,
         'q': input_text
